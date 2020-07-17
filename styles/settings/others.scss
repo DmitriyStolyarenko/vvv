@@ -1,0 +1,65 @@
+.flex{
+	display: flex;
+	justify-content: center;
+	background-color: #fff;
+}
+.color-grad-first{
+	background: linear-gradient(180deg, #7081CD 21.35%, #94A6E8 73.11%, #6070B8 83.73%, #5264B4 97.92%);
+}
+.color-background-sky{
+	background: #F1F1F1;
+}
+.color-background-gray{
+	background: #F4F4F4;
+}
+.color-background-pink{
+	background: #FCEBF1;
+}
+.main-title-p{
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 34px !important;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	text-align: start;
+	@include tablets {
+		text-align: center;
+		padding-bottom: 2.61%;
+		padding-top: 3.61%;
+	}
+
+	@include phones {
+		font-size: 28px !important;
+	}
+}
+.l-text-pb{
+	padding-bottom: 30px;
+	@include tablets {
+	padding-bottom: 0px;
+}
+}
+.l-img-witdhwr{
+	width: 32%;
+	@include phones {
+	width: 55%;
+}
+}
+.img-pb{
+	padding-bottom: 20px;
+	@include tablets {
+	padding-bottom: 0px;
+}
+}
+.img-r{
+	padding-right: 2%;
+	@include tablets {
+		padding-right: 0px;
+	}
+}
+.img-l{
+	padding-left: 2%;
+	@include tablets {
+		padding-left: 0px;
+	}
+}
